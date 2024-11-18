@@ -1,14 +1,92 @@
-/* Design sans titre (1) 1 */
-body{
-font-family: verdana
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
 }
 
-img {
-position: absolute;
-width: 500px;
-height: 98px;
-left: 7px;
-top: 0px;
+header {
+    text-align: center;
 }
 
+.banner img {
+    width: 100%;
+    height: auto;
+}
 
+.navbar {
+    background-color: #000;
+    padding: 20px;
+}
+
+.navbar h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00aaff;
+}
+
+.gallery-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-description img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid .item {
+    text-align: center;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-content .socials a {
+    margin: 0 10px;
+    color: #00aaff;
+    text-decoration: none;
+}
