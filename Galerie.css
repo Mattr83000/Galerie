@@ -722,6 +722,11 @@ form button:hover {
 /* Extra Small Screens */
 @media (max-width: 480px) {
 
+    .banner img {
+    width: 90%;
+    height: 500px;
+    }
+    
     h2 {
         font-size: 12vw; /* Taille plus petite pour très petits écrans */
         text-align: center;
