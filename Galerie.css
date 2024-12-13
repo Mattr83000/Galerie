@@ -583,7 +583,7 @@ form button:hover {
 }
 
 .container{
-    background: url('Images/fond.png');
+    background: url('images/fond.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
