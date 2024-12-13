@@ -599,6 +599,11 @@ form button:hover {
 /* Responsive layout */
 @media (max-width: 768px) {
 
+ .banner img {
+    width: 90%;
+    height: 100px;
+    }
+    
     .content-row p {
         flex: 1;
         font-size: 18px;
