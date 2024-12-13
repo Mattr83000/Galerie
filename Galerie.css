@@ -598,11 +598,6 @@ form button:hover {
 
 /* Responsive layout */
 @media (max-width: 768px) {
-
- .banner img {
-    width: 90%;
-    height: 100px;
-    }
     
     .content-row p {
         flex: 1;
@@ -726,11 +721,6 @@ form button:hover {
 
 /* Extra Small Screens */
 @media (max-width: 480px) {
-
-    .banner img {
-    width: 90%;
-    height: 500px;
-    }
     
     h2 {
         font-size: 12vw; /* Taille plus petite pour très petits écrans */
